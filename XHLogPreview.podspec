@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'XHLogPreview'
   s.version          = '1.0.0'
   s.summary          = '使用 CocoaLumberjack 日志,自定义格式,自定义文件名,实现日志预览,分享'
-  s.description      = '使用 CocoaLumberjack 日志,自定义格式,自定义文件名,实现日志预览,分享'
+  s.description      = '使用 CocoaLumberjack 收集日志,二次封装,自定义日志输出格式,自定义写入文件名,实现日志预览,分享'
   s.homepage         = 'https://github.com/AssassinrKiller/XHLogPreview'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
