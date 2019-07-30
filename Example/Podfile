@@ -3,8 +3,10 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'XHLogPreview_Example' do
+  
   pod 'XHLogPreview', :path => '../'
-
+  pod 'CocoaLumberjack'
+  
   target 'XHLogPreview_Tests' do
     inherit! :search_paths
 

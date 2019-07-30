@@ -1,0 +1,6 @@
+framework module Pods_XHLogPreview_Tests {
+  umbrella header "Pods-XHLogPreview_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

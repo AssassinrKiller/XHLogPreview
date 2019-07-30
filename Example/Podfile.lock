@@ -1,0 +1,26 @@
+PODS:
+  - CocoaLumberjack (3.5.3):
+    - CocoaLumberjack/Core (= 3.5.3)
+  - CocoaLumberjack/Core (3.5.3)
+  - XHLogPreview (0.1.0):
+    - CocoaLumberjack
+
+DEPENDENCIES:
+  - CocoaLumberjack
+  - XHLogPreview (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
+
+EXTERNAL SOURCES:
+  XHLogPreview:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
+  XHLogPreview: 858121f45bb7bc83ded7ea9d41a297e4ff8ea8be
+
+PODFILE CHECKSUM: aca0c9d23676dd435ef4ab955fbdadc5c15006ac
+
+COCOAPODS: 1.7.5

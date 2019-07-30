@@ -7,12 +7,13 @@
 //
 
 #import "XHAppDelegate.h"
+#import <ArtLogPreManager.h>
 
 @implementation XHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [[ArtLogPreManager shareInstance] startServer];
     return YES;
 }
 

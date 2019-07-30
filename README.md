@@ -22,7 +22,7 @@ pod 'XHLogPreview'
 
 ## Author
 
-ios_service@126.com, xuhuan@meishubao.com
+ios_service@126.com
 
 ## License
 

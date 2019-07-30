@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XHLogPreview'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XHLogPreview.'
+  s.summary          = '使用 CocoaLumberjack 日志,自定义格式,自定义文件名,实现日志预览,分享'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ios_service@126.com/XHLogPreview'
+  s.homepage         = 'https://github.com/AssassinrKiller/XHLogPreview'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ios_service@126.com' => 'xuhuan@meishubao.com' }
-  s.source           = { :git => 'https://github.com/ios_service@126.com/XHLogPreview.git', :tag => s.version.to_s }
+  s.author           = { 'ios_service@126.com' => 'AssassinrKiller' }
+  s.source           = { :git => 'https://github.com/AssassinrKiller/XHLogPreview.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'CocoaLumberjack'
 end

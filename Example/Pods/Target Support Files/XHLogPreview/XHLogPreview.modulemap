@@ -1,0 +1,6 @@
+framework module XHLogPreview {
+  umbrella header "XHLogPreview-umbrella.h"
+
+  export *
+  module * { export * }
+}
