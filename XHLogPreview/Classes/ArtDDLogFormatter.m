@@ -57,7 +57,7 @@ static NSString *const kDateFormatString = @"yyyy/MM/dd HH:mm:ss";
     NSString *logMsg = logMessage->_message;         // 日志消息
     
     // 日志格式：日期和时间 文件名 方法名 : 行数 <日志等级> 日志消息
-    return [NSString stringWithFormat:@"%@ %@ %@ : %lu <%@> %@", dateAndTime, logFileName, logFunction, logLine, logLevel, logMsg];
+    return [NSString stringWithFormat:@"%@ %@ %@ : %lu <%@> %@", dateAndTime, logFileName, logFunction, (unsigned long)logLine, logLevel, logMsg];
 }
 
 - (void)didAddToLogger:(id <DDLogger>)logger {
